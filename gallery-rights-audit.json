@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1513_Celery vase",
+    "verified": true,
+    "evidence": "https://collectionapi.metmuseum.org/public/collection/v1/objects/1513"
+  },
+  {
+    "id": "34_Acorn Clock",
+    "verified": true,
+    "evidence": "https://collectionapi.metmuseum.org/public/collection/v1/objects/34"
+  },
+  {
+    "id": "10149_Canadian Rockies (Lake Louise)",
+    "verified": true,
+    "evidence": "https://collectionapi.metmuseum.org/public/collection/v1/objects/10149"
+  },
+  {
+    "id": "1e12c6a1-2faf-428a-9d2c-8f5ac849b5f4",
+    "verified": true,
+    "evidence": "https://media.getty.edu/iiif/manifest/c88e3a7c-6a7c-45ef-b04f-7e394496dc03"
+  },
+  {
+    "id": "1c52a012-38ba-449e-ab4e-971c8d63cd64",
+    "verified": true,
+    "evidence": "https://media.getty.edu/iiif/manifest/0aa4cb99-a0cf-4e9c-96fb-680a836b6897"
+  },
+  {
+    "id": "2d41f264-fcd9-4dfa-b40c-a6346850dd6d",
+    "verified": true,
+    "evidence": "https://media.getty.edu/iiif/manifest/e966c5cf-733a-48db-88f9-e9d5fd18e7cf"
+  },
+  {
+    "id": "94a904e5-ccf0-4c34-8bc9-bca307a0373b",
+    "verified": true,
+    "evidence": "https://media.getty.edu/iiif/manifest/4ce20c7b-2c76-4aa3-830b-4466765f2f71"
+  },
+  {
+    "id": "23025_Armor (_i_Yoroi_i_)",
+    "verified": true,
+    "evidence": "https://collectionapi.metmuseum.org/public/collection/v1/objects/23025"
+  },
+  {
+    "id": "45028_Bird-and-Flower Paintings",
+    "verified": true,
+    "evidence": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45028"
+  },
+  {
+    "id": "013db251-d4dc-429f-82ce-4d6df93483e4",
+    "verified": true,
+    "evidence": "https://media.getty.edu/iiif/manifest/caccac4a-6a50-4761-aeb1-3bc80cd7c5a7"
+  },
+  {
+    "id": "1e747e6c-74f8-4a40-86de-9a1c751db887",
+    "verified": true,
+    "evidence": "https://media.getty.edu/iiif/manifest/cf1c0c0c-e104-4bc3-a338-8b1b35d09edc"
+  },
+  {
+    "id": "00d77a20-b67c-4e5d-a612-4f358d1d155c",
+    "verified": true,
+    "evidence": "https://media.getty.edu/iiif/manifest/3219135c-0ccd-466b-b094-73d03fd89d3c"
+  },
+  {
+    "id": "10573_The Babes in the Wood",
+    "verified": true,
+    "evidence": "https://collectionapi.metmuseum.org/public/collection/v1/objects/10573",
+    "verified_date": "2026-11-18"
+  },
+  {
+    "id": "4576_Pitcher",
+    "verified": true,
+    "evidence": "https://collectionapi.metmuseum.org/public/collection/v1/objects/4576",
+    "verified_date": "2026-11-18"
+  },
+  {
+    "id": "4c1cec27-7592-486f-964d-04975a955a0d",
+    "verified": true,
+    "evidence": "https://media.getty.edu/iiif/manifest/3d59b748-f56c-41c3-9c5a-fe6da03b299d",
+    "verified_date": "2026-11-18"
+  },
+  {
+    "id": "1a8c09bc-d6c0-4526-bebb-cfc383ca899a",
+    "verified": true,
+    "evidence": "https://media.getty.edu/iiif/manifest/d7296573-72d1-4480-a68d-146377039377",
+    "verified_date": "2026-11-18"
+  },
+  {
+    "id": "764f71c2-0340-49b5-8c44-00bacca7c233",
+    "verified": true,
+    "evidence": "https://media.getty.edu/iiif/manifest/2ea6ff1a-1ff9-41a5-94c0-63a4dcc6a712",
+    "verified_date": "2026-11-18"
+  },
+  {
+    "id": "55067_Gold-Fish in a Glass Bottle",
+    "verified": true,
+    "evidence": "https://collectionapi.metmuseum.org/public/collection/v1/objects/55067",
+    "verified_date": "2026-11-18"
+  },
+  {
+    "id": "39d0271c-9646-44d6-9b11-058decc3dbb3",
+    "verified": true,
+    "evidence": "https://media.getty.edu/iiif/manifest/bbb0618a-6172-48fd-abd2-06198c5090d3",
+    "verified_date": "2026-11-18"
+  },
+  {
+    "id": "039f2376-cab7-479c-830d-413287e4ffe6",
+    "verified": true,
+    "evidence": "https://media.getty.edu/iiif/manifest/1645f499-da9e-4bda-94b6-7aa1affb10db",
+    "verified_date": "2026-11-18"
+  }
+]

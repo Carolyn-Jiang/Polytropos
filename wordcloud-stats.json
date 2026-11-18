@@ -1,0 +1,1150 @@
+{
+  "source": "https://huggingface.co/datasets/Carolyn-Jiang/Culture-Ground-Description",
+  "source_files": [
+    "data/cohorts/selected_374.jsonl",
+    "data/generation/llava-onevision-1.5-8b.jsonl",
+    "data/generation/gemini-3-flash-preview.jsonl",
+    "data/generation/gpt-4.1-mini.jsonl",
+    "data/generation/gemini-2.5-flash-lite.jsonl",
+    "data/generation/gemini-2.5-flash.jsonl"
+  ],
+  "matched_objects": 230,
+  "models": [
+    "llava-onevision-1.5-8b",
+    "gemini-3-flash-preview",
+    "gpt-4.1-mini",
+    "gemini-2.5-flash-lite",
+    "gemini-2.5-flash"
+  ],
+  "date": "2026-11-18",
+  "method": "Same 230 objects. Lowercase English unigrams; possessive 's removed; tokens shorter than three letters, numbers and wordcloud English STOPWORDS removed. No stemming, lemmatization, domain-word filtering, or bigrams. All descriptions included regardless of generation outcome. AI pools five models with 230 descriptions each. Token rates are normalized per 10,000 retained tokens; font sizes are scaled independently within each cloud. Colors are decorative.",
+  "stopwords": [
+    "a",
+    "about",
+    "above",
+    "after",
+    "again",
+    "against",
+    "all",
+    "also",
+    "am",
+    "an",
+    "and",
+    "any",
+    "are",
+    "aren't",
+    "as",
+    "at",
+    "be",
+    "because",
+    "been",
+    "before",
+    "being",
+    "below",
+    "between",
+    "both",
+    "but",
+    "by",
+    "can",
+    "can't",
+    "cannot",
+    "com",
+    "could",
+    "couldn't",
+    "did",
+    "didn't",
+    "do",
+    "does",
+    "doesn't",
+    "doing",
+    "don't",
+    "down",
+    "during",
+    "each",
+    "else",
+    "ever",
+    "few",
+    "for",
+    "from",
+    "further",
+    "get",
+    "had",
+    "hadn't",
+    "has",
+    "hasn't",
+    "have",
+    "haven't",
+    "having",
+    "he",
+    "he'd",
+    "he'll",
+    "he's",
+    "hence",
+    "her",
+    "here",
+    "here's",
+    "hers",
+    "herself",
+    "him",
+    "himself",
+    "his",
+    "how",
+    "how's",
+    "however",
+    "http",
+    "i",
+    "i'd",
+    "i'll",
+    "i'm",
+    "i've",
+    "if",
+    "in",
+    "into",
+    "is",
+    "isn't",
+    "it",
+    "it's",
+    "its",
+    "itself",
+    "just",
+    "k",
+    "let's",
+    "like",
+    "me",
+    "more",
+    "most",
+    "mustn't",
+    "my",
+    "myself",
+    "no",
+    "nor",
+    "not",
+    "of",
+    "off",
+    "on",
+    "once",
+    "only",
+    "or",
+    "other",
+    "otherwise",
+    "ought",
+    "our",
+    "ours",
+    "ourselves",
+    "out",
+    "over",
+    "own",
+    "r",
+    "same",
+    "shall",
+    "shan't",
+    "she",
+    "she'd",
+    "she'll",
+    "she's",
+    "should",
+    "shouldn't",
+    "since",
+    "so",
+    "some",
+    "such",
+    "than",
+    "that",
+    "that's",
+    "the",
+    "their",
+    "theirs",
+    "them",
+    "themselves",
+    "then",
+    "there",
+    "there's",
+    "therefore",
+    "these",
+    "they",
+    "they'd",
+    "they'll",
+    "they're",
+    "they've",
+    "this",
+    "those",
+    "through",
+    "to",
+    "too",
+    "under",
+    "until",
+    "up",
+    "very",
+    "was",
+    "wasn't",
+    "we",
+    "we'd",
+    "we'll",
+    "we're",
+    "we've",
+    "were",
+    "weren't",
+    "what",
+    "what's",
+    "when",
+    "when's",
+    "where",
+    "where's",
+    "which",
+    "while",
+    "who",
+    "who's",
+    "whom",
+    "why",
+    "why's",
+    "with",
+    "won't",
+    "would",
+    "wouldn't",
+    "www",
+    "you",
+    "you'd",
+    "you'll",
+    "you're",
+    "you've",
+    "your",
+    "yours",
+    "yourself",
+    "yourselves"
+  ],
+  "corpora": {
+    "ai": {
+      "descriptions": 1150,
+      "objects": 230,
+      "retained_tokens": 80464,
+      "unique_tokens": 6758,
+      "displayed_words": 90,
+      "descriptions_by_model": {
+        "llava-onevision-1.5-8b": 230,
+        "gemini-3-flash-preview": 230,
+        "gpt-4.1-mini": 230,
+        "gemini-2.5-flash-lite": 230,
+        "gemini-2.5-flash": 230
+      },
+      "top_words": [
+        {
+          "word": "may",
+          "count": 639,
+          "per_10000": 79.41
+        },
+        {
+          "word": "figure",
+          "count": 577,
+          "per_10000": 71.71
+        },
+        {
+          "word": "likely",
+          "count": 565,
+          "per_10000": 70.22
+        },
+        {
+          "word": "features",
+          "count": 508,
+          "per_10000": 63.13
+        },
+        {
+          "word": "use",
+          "count": 428,
+          "per_10000": 53.19
+        },
+        {
+          "word": "depicts",
+          "count": 399,
+          "per_10000": 49.59
+        },
+        {
+          "word": "decorative",
+          "count": 386,
+          "per_10000": 47.97
+        },
+        {
+          "word": "form",
+          "count": 355,
+          "per_10000": 44.12
+        },
+        {
+          "word": "cultural",
+          "count": 345,
+          "per_10000": 42.88
+        },
+        {
+          "word": "suggest",
+          "count": 340,
+          "per_10000": 42.25
+        },
+        {
+          "word": "within",
+          "count": 339,
+          "per_10000": 42.13
+        },
+        {
+          "word": "suggests",
+          "count": 337,
+          "per_10000": 41.88
+        },
+        {
+          "word": "figures",
+          "count": 335,
+          "per_10000": 41.63
+        },
+        {
+          "word": "gold",
+          "count": 331,
+          "per_10000": 41.14
+        },
+        {
+          "word": "possibly",
+          "count": 325,
+          "per_10000": 40.39
+        },
+        {
+          "word": "century",
+          "count": 319,
+          "per_10000": 39.65
+        },
+        {
+          "word": "bronze",
+          "count": 305,
+          "per_10000": 37.91
+        },
+        {
+          "word": "ancient",
+          "count": 292,
+          "per_10000": 36.29
+        },
+        {
+          "word": "central",
+          "count": 288,
+          "per_10000": 35.79
+        },
+        {
+          "word": "object",
+          "count": 275,
+          "per_10000": 34.18
+        },
+        {
+          "word": "reflects",
+          "count": 267,
+          "per_10000": 33.18
+        },
+        {
+          "word": "period",
+          "count": 266,
+          "per_10000": 33.06
+        },
+        {
+          "word": "porcelain",
+          "count": 265,
+          "per_10000": 32.93
+        },
+        {
+          "word": "characteristic",
+          "count": 264,
+          "per_10000": 32.81
+        },
+        {
+          "word": "motifs",
+          "count": 262,
+          "per_10000": 32.56
+        },
+        {
+          "word": "reflecting",
+          "count": 261,
+          "per_10000": 32.44
+        },
+        {
+          "word": "scene",
+          "count": 254,
+          "per_10000": 31.57
+        },
+        {
+          "word": "rendered",
+          "count": 251,
+          "per_10000": 31.19
+        },
+        {
+          "word": "intricate",
+          "count": 241,
+          "per_10000": 29.95
+        },
+        {
+          "word": "adorned",
+          "count": 233,
+          "per_10000": 28.96
+        },
+        {
+          "word": "craftsmanship",
+          "count": 230,
+          "per_10000": 28.58
+        },
+        {
+          "word": "suggesting",
+          "count": 227,
+          "per_10000": 28.21
+        },
+        {
+          "word": "classical",
+          "count": 225,
+          "per_10000": 27.96
+        },
+        {
+          "word": "work",
+          "count": 225,
+          "per_10000": 27.96
+        },
+        {
+          "word": "status",
+          "count": 217,
+          "per_10000": 26.97
+        },
+        {
+          "word": "detailed",
+          "count": 211,
+          "per_10000": 26.22
+        },
+        {
+          "word": "crafted",
+          "count": 209,
+          "per_10000": 25.97
+        },
+        {
+          "word": "vessel",
+          "count": 206,
+          "per_10000": 25.6
+        },
+        {
+          "word": "high",
+          "count": 205,
+          "per_10000": 25.48
+        },
+        {
+          "word": "roman",
+          "count": 205,
+          "per_10000": 25.48
+        },
+        {
+          "word": "composition",
+          "count": 205,
+          "per_10000": 25.48
+        },
+        {
+          "word": "blue",
+          "count": 204,
+          "per_10000": 25.35
+        },
+        {
+          "word": "distinctive",
+          "count": 203,
+          "per_10000": 25.23
+        },
+        {
+          "word": "piece",
+          "count": 201,
+          "per_10000": 24.98
+        },
+        {
+          "word": "gilt",
+          "count": 200,
+          "per_10000": 24.86
+        },
+        {
+          "word": "artistic",
+          "count": 200,
+          "per_10000": 24.86
+        },
+        {
+          "word": "intended",
+          "count": 199,
+          "per_10000": 24.73
+        },
+        {
+          "word": "white",
+          "count": 197,
+          "per_10000": 24.48
+        },
+        {
+          "word": "marble",
+          "count": 194,
+          "per_10000": 24.11
+        },
+        {
+          "word": "reflect",
+          "count": 189,
+          "per_10000": 23.49
+        },
+        {
+          "word": "domestic",
+          "count": 186,
+          "per_10000": 23.12
+        },
+        {
+          "word": "body",
+          "count": 185,
+          "per_10000": 22.99
+        },
+        {
+          "word": "served",
+          "count": 185,
+          "per_10000": 22.99
+        },
+        {
+          "word": "two",
+          "count": 184,
+          "per_10000": 22.87
+        },
+        {
+          "word": "aesthetic",
+          "count": 179,
+          "per_10000": 22.25
+        },
+        {
+          "word": "elements",
+          "count": 175,
+          "per_10000": 21.75
+        },
+        {
+          "word": "design",
+          "count": 174,
+          "per_10000": 21.62
+        },
+        {
+          "word": "style",
+          "count": 174,
+          "per_10000": 21.62
+        },
+        {
+          "word": "context",
+          "count": 170,
+          "per_10000": 21.13
+        },
+        {
+          "word": "symbolic",
+          "count": 168,
+          "per_10000": 20.88
+        },
+        {
+          "word": "head",
+          "count": 167,
+          "per_10000": 20.75
+        },
+        {
+          "word": "stylized",
+          "count": 164,
+          "per_10000": 20.38
+        },
+        {
+          "word": "silver",
+          "count": 164,
+          "per_10000": 20.38
+        },
+        {
+          "word": "often",
+          "count": 162,
+          "per_10000": 20.13
+        },
+        {
+          "word": "iconography",
+          "count": 161,
+          "per_10000": 20.01
+        },
+        {
+          "word": "artist",
+          "count": 160,
+          "per_10000": 19.88
+        },
+        {
+          "word": "life",
+          "count": 159,
+          "per_10000": 19.76
+        },
+        {
+          "word": "greek",
+          "count": 159,
+          "per_10000": 19.76
+        },
+        {
+          "word": "divine",
+          "count": 156,
+          "per_10000": 19.39
+        },
+        {
+          "word": "black",
+          "count": 156,
+          "per_10000": 19.39
+        },
+        {
+          "word": "french",
+          "count": 156,
+          "per_10000": 19.39
+        },
+        {
+          "word": "vibrant",
+          "count": 154,
+          "per_10000": 19.14
+        },
+        {
+          "word": "hair",
+          "count": 151,
+          "per_10000": 18.77
+        },
+        {
+          "word": "floral",
+          "count": 150,
+          "per_10000": 18.64
+        },
+        {
+          "word": "tradition",
+          "count": 149,
+          "per_10000": 18.52
+        },
+        {
+          "word": "specific",
+          "count": 146,
+          "per_10000": 18.14
+        },
+        {
+          "word": "elaborate",
+          "count": 146,
+          "per_10000": 18.14
+        },
+        {
+          "word": "sommer",
+          "count": 145,
+          "per_10000": 18.02
+        },
+        {
+          "word": "tempera",
+          "count": 142,
+          "per_10000": 17.65
+        },
+        {
+          "word": "attributed",
+          "count": 142,
+          "per_10000": 17.65
+        },
+        {
+          "word": "material",
+          "count": 141,
+          "per_10000": 17.52
+        },
+        {
+          "word": "art",
+          "count": 141,
+          "per_10000": 17.52
+        },
+        {
+          "word": "portrait",
+          "count": 141,
+          "per_10000": 17.52
+        },
+        {
+          "word": "prominent",
+          "count": 141,
+          "per_10000": 17.52
+        },
+        {
+          "word": "leaf",
+          "count": 139,
+          "per_10000": 17.27
+        },
+        {
+          "word": "function",
+          "count": 139,
+          "per_10000": 17.27
+        },
+        {
+          "word": "traditions",
+          "count": 138,
+          "per_10000": 17.15
+        },
+        {
+          "word": "dynamic",
+          "count": 136,
+          "per_10000": 16.9
+        },
+        {
+          "word": "background",
+          "count": 136,
+          "per_10000": 16.9
+        },
+        {
+          "word": "terracotta",
+          "count": 135,
+          "per_10000": 16.78
+        }
+      ],
+      "corpus_sha256": "70e6fdbbb2583684b86d303ee1b7627b233dd169739aa0ce4c4d563d30916546"
+    },
+    "human": {
+      "descriptions": 230,
+      "objects": 230,
+      "retained_tokens": 18385,
+      "unique_tokens": 5439,
+      "displayed_words": 90,
+      "descriptions_by_model": {
+        "museum-authored": 230
+      },
+      "top_words": [
+        {
+          "word": "one",
+          "count": 117,
+          "per_10000": 63.64
+        },
+        {
+          "word": "two",
+          "count": 106,
+          "per_10000": 57.66
+        },
+        {
+          "word": "left",
+          "count": 94,
+          "per_10000": 51.13
+        },
+        {
+          "word": "head",
+          "count": 89,
+          "per_10000": 48.41
+        },
+        {
+          "word": "made",
+          "count": 83,
+          "per_10000": 45.15
+        },
+        {
+          "word": "right",
+          "count": 78,
+          "per_10000": 42.43
+        },
+        {
+          "word": "porcelain",
+          "count": 75,
+          "per_10000": 40.79
+        },
+        {
+          "word": "roman",
+          "count": 71,
+          "per_10000": 38.62
+        },
+        {
+          "word": "greek",
+          "count": 71,
+          "per_10000": 38.62
+        },
+        {
+          "word": "figure",
+          "count": 66,
+          "per_10000": 35.9
+        },
+        {
+          "word": "man",
+          "count": 58,
+          "per_10000": 31.55
+        },
+        {
+          "word": "bronze",
+          "count": 57,
+          "per_10000": 31.0
+        },
+        {
+          "word": "used",
+          "count": 56,
+          "per_10000": 30.46
+        },
+        {
+          "word": "large",
+          "count": 55,
+          "per_10000": 29.92
+        },
+        {
+          "word": "may",
+          "count": 54,
+          "per_10000": 29.37
+        },
+        {
+          "word": "small",
+          "count": 53,
+          "per_10000": 28.83
+        },
+        {
+          "word": "hair",
+          "count": 53,
+          "per_10000": 28.83
+        },
+        {
+          "word": "back",
+          "count": 52,
+          "per_10000": 28.28
+        },
+        {
+          "word": "painted",
+          "count": 49,
+          "per_10000": 26.65
+        },
+        {
+          "word": "figures",
+          "count": 48,
+          "per_10000": 26.11
+        },
+        {
+          "word": "probably",
+          "count": 48,
+          "per_10000": 26.11
+        },
+        {
+          "word": "known",
+          "count": 46,
+          "per_10000": 25.02
+        },
+        {
+          "word": "decorated",
+          "count": 45,
+          "per_10000": 24.48
+        },
+        {
+          "word": "around",
+          "count": 44,
+          "per_10000": 23.93
+        },
+        {
+          "word": "side",
+          "count": 44,
+          "per_10000": 23.93
+        },
+        {
+          "word": "gold",
+          "count": 44,
+          "per_10000": 23.93
+        },
+        {
+          "word": "white",
+          "count": 42,
+          "per_10000": 22.84
+        },
+        {
+          "word": "style",
+          "count": 42,
+          "per_10000": 22.84
+        },
+        {
+          "word": "body",
+          "count": 41,
+          "per_10000": 22.3
+        },
+        {
+          "word": "three",
+          "count": 39,
+          "per_10000": 21.21
+        },
+        {
+          "word": "decoration",
+          "count": 39,
+          "per_10000": 21.21
+        },
+        {
+          "word": "form",
+          "count": 38,
+          "per_10000": 20.67
+        },
+        {
+          "word": "blue",
+          "count": 38,
+          "per_10000": 20.67
+        },
+        {
+          "word": "long",
+          "count": 38,
+          "per_10000": 20.67
+        },
+        {
+          "word": "shoulder",
+          "count": 38,
+          "per_10000": 20.67
+        },
+        {
+          "word": "chinese",
+          "count": 38,
+          "per_10000": 20.67
+        },
+        {
+          "word": "first",
+          "count": 37,
+          "per_10000": 20.13
+        },
+        {
+          "word": "hand",
+          "count": 37,
+          "per_10000": 20.13
+        },
+        {
+          "word": "top",
+          "count": 36,
+          "per_10000": 19.58
+        },
+        {
+          "word": "eyes",
+          "count": 36,
+          "per_10000": 19.58
+        },
+        {
+          "word": "woman",
+          "count": 36,
+          "per_10000": 19.58
+        },
+        {
+          "word": "century",
+          "count": 36,
+          "per_10000": 19.58
+        },
+        {
+          "word": "scene",
+          "count": 34,
+          "per_10000": 18.49
+        },
+        {
+          "word": "portrait",
+          "count": 34,
+          "per_10000": 18.49
+        },
+        {
+          "word": "french",
+          "count": 34,
+          "per_10000": 18.49
+        },
+        {
+          "word": "black",
+          "count": 33,
+          "per_10000": 17.95
+        },
+        {
+          "word": "sculpture",
+          "count": 33,
+          "per_10000": 17.95
+        },
+        {
+          "word": "produced",
+          "count": 33,
+          "per_10000": 17.95
+        },
+        {
+          "word": "painting",
+          "count": 33,
+          "per_10000": 17.95
+        },
+        {
+          "word": "statue",
+          "count": 33,
+          "per_10000": 17.95
+        },
+        {
+          "word": "christ",
+          "count": 33,
+          "per_10000": 17.95
+        },
+        {
+          "word": "red",
+          "count": 32,
+          "per_10000": 17.41
+        },
+        {
+          "word": "face",
+          "count": 32,
+          "per_10000": 17.41
+        },
+        {
+          "word": "art",
+          "count": 31,
+          "per_10000": 16.86
+        },
+        {
+          "word": "leaves",
+          "count": 31,
+          "per_10000": 16.86
+        },
+        {
+          "word": "vase",
+          "count": 30,
+          "per_10000": 16.32
+        },
+        {
+          "word": "vessel",
+          "count": 30,
+          "per_10000": 16.32
+        },
+        {
+          "word": "features",
+          "count": 30,
+          "per_10000": 16.32
+        },
+        {
+          "word": "bust",
+          "count": 30,
+          "per_10000": 16.32
+        },
+        {
+          "word": "wall",
+          "count": 30,
+          "per_10000": 16.32
+        },
+        {
+          "word": "part",
+          "count": 29,
+          "per_10000": 15.77
+        },
+        {
+          "word": "popular",
+          "count": 29,
+          "per_10000": 15.77
+        },
+        {
+          "word": "period",
+          "count": 29,
+          "per_10000": 15.77
+        },
+        {
+          "word": "saint",
+          "count": 29,
+          "per_10000": 15.77
+        },
+        {
+          "word": "many",
+          "count": 28,
+          "per_10000": 15.23
+        },
+        {
+          "word": "wears",
+          "count": 28,
+          "per_10000": 15.23
+        },
+        {
+          "word": "lines",
+          "count": 27,
+          "per_10000": 14.69
+        },
+        {
+          "word": "ancient",
+          "count": 27,
+          "per_10000": 14.69
+        },
+        {
+          "word": "late",
+          "count": 27,
+          "per_10000": 14.69
+        },
+        {
+          "word": "god",
+          "count": 27,
+          "per_10000": 14.69
+        },
+        {
+          "word": "set",
+          "count": 26,
+          "per_10000": 14.14
+        },
+        {
+          "word": "vases",
+          "count": 25,
+          "per_10000": 13.6
+        },
+        {
+          "word": "background",
+          "count": 25,
+          "per_10000": 13.6
+        },
+        {
+          "word": "marble",
+          "count": 25,
+          "per_10000": 13.6
+        },
+        {
+          "word": "holds",
+          "count": 24,
+          "per_10000": 13.05
+        },
+        {
+          "word": "neck",
+          "count": 24,
+          "per_10000": 13.05
+        },
+        {
+          "word": "artist",
+          "count": 24,
+          "per_10000": 13.05
+        },
+        {
+          "word": "front",
+          "count": 24,
+          "per_10000": 13.05
+        },
+        {
+          "word": "family",
+          "count": 24,
+          "per_10000": 13.05
+        },
+        {
+          "word": "center",
+          "count": 23,
+          "per_10000": 12.51
+        },
+        {
+          "word": "surface",
+          "count": 23,
+          "per_10000": 12.51
+        },
+        {
+          "word": "beard",
+          "count": 23,
+          "per_10000": 12.51
+        },
+        {
+          "word": "middle",
+          "count": 23,
+          "per_10000": 12.51
+        },
+        {
+          "word": "depicted",
+          "count": 23,
+          "per_10000": 12.51
+        },
+        {
+          "word": "time",
+          "count": 23,
+          "per_10000": 12.51
+        },
+        {
+          "word": "found",
+          "count": 23,
+          "per_10000": 12.51
+        },
+        {
+          "word": "design",
+          "count": 22,
+          "per_10000": 11.97
+        },
+        {
+          "word": "ground",
+          "count": 22,
+          "per_10000": 11.97
+        },
+        {
+          "word": "behind",
+          "count": 22,
+          "per_10000": 11.97
+        },
+        {
+          "word": "bowl",
+          "count": 22,
+          "per_10000": 11.97
+        }
+      ],
+      "corpus_sha256": "affc07068f83493ee1d9404965d2b025bacd1959b628f1adc383195322d9308b"
+    }
+  },
+  "human_text_attribution": "Museum-authored descriptions: © J. Paul Getty Trust; CC BY 4.0 unless otherwise noted. All 230 matched human descriptions in this corpus are from Getty.",
+  "human_text_rights_policy": "https://www.getty.edu/legal/terms-of-use/",
+  "human_text_license": "https://creativecommons.org/licenses/by/4.0/"
+}

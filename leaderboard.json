@@ -1,0 +1,392 @@
+[
+  {
+    "id": "gemini-2.5-flash-lite",
+    "name": "Gemini-2.5-Flash-Lite",
+    "cohort": "full",
+    "kind": "hosted",
+    "n": 374,
+    "images": 364,
+    "matches": 216,
+    "accuracy": 57.75401069518717,
+    "conditional": 59.34065934065934,
+    "macro": 57.733333333333334,
+    "refused": 10,
+    "ci": [
+      52.94,
+      62.3
+    ]
+  },
+  {
+    "id": "llava-onevision-1.5-8b-local",
+    "name": "LLaVA-OneVision-1.5-8B",
+    "cohort": "full",
+    "kind": "open",
+    "n": 374,
+    "images": 362,
+    "matches": 205,
+    "accuracy": 54.81283422459893,
+    "conditional": 56.629834254143645,
+    "macro": 54.74444444444444,
+    "refused": 12,
+    "ci": [
+      50.27,
+      59.36
+    ]
+  },
+  {
+    "id": "gpt-4.1-mini",
+    "name": "GPT-4.1-mini",
+    "cohort": "full",
+    "kind": "hosted",
+    "n": 374,
+    "images": 365,
+    "matches": 221,
+    "accuracy": 59.09090909090909,
+    "conditional": 60.54794520547945,
+    "macro": 59.055555555555564,
+    "refused": 9,
+    "ci": [
+      54.55,
+      63.64
+    ]
+  },
+  {
+    "id": "gemini-2.5-flash",
+    "name": "Gemini-2.5-Flash",
+    "cohort": "full",
+    "kind": "hosted",
+    "n": 374,
+    "images": 364,
+    "matches": 209,
+    "accuracy": 55.88235294117647,
+    "conditional": 57.57575757575758,
+    "macro": 55.84444444444444,
+    "refused": 10,
+    "ci": [
+      51.34,
+      60.43
+    ]
+  },
+  {
+    "id": "gemini-3-flash-preview",
+    "name": "Gemini-3-Flash-Preview",
+    "cohort": "full",
+    "kind": "hosted",
+    "n": 374,
+    "images": 366,
+    "matches": 204,
+    "accuracy": 54.54545454545455,
+    "conditional": 55.89041095890411,
+    "macro": 54.522222222222226,
+    "refused": 8,
+    "ci": [
+      50,
+      59.09
+    ]
+  },
+  {
+    "id": "original",
+    "name": "Original photographs",
+    "cohort": "full",
+    "kind": "control",
+    "n": 374,
+    "images": 374,
+    "matches": 195,
+    "accuracy": 52.139037433155075,
+    "conditional": 52.7,
+    "macro": 52.13,
+    "refused": 0,
+    "ci": [
+      47.59,
+      56.42
+    ]
+  },
+  {
+    "id": "human_baseline",
+    "name": "Museum-authored",
+    "cohort": "matched",
+    "kind": "human",
+    "n": 230,
+    "images": 230,
+    "matches": 120,
+    "accuracy": 52.17391304347826,
+    "conditional": 52.63157894736842,
+    "macro": 56.02776635129576,
+    "refused": 0,
+    "ci": [
+      46.09,
+      57.83
+    ]
+  },
+  {
+    "id": "gemini-2.5-flash",
+    "name": "Gemini-2.5-Flash",
+    "cohort": "matched",
+    "kind": "hosted",
+    "n": 230,
+    "images": 221,
+    "matches": 125,
+    "accuracy": 54.34782608695652,
+    "conditional": 56.81818181818182,
+    "macro": 49.80515562868504,
+    "refused": 9,
+    "ci": [
+      48.26,
+      60.0
+    ]
+  },
+  {
+    "id": "gpt-4.1-mini",
+    "name": "GPT-4.1-mini",
+    "cohort": "matched",
+    "kind": "hosted",
+    "n": 230,
+    "images": 222,
+    "matches": 133,
+    "accuracy": 57.82608695652174,
+    "conditional": 59.909909909909906,
+    "macro": 61.798916769505006,
+    "refused": 8,
+    "ci": [
+      51.74,
+      63.91
+    ]
+  },
+  {
+    "id": "llava-onevision-1.5-8b-local",
+    "name": "LLaVA-OneVision-1.5-8B",
+    "cohort": "matched",
+    "kind": "open",
+    "n": 230,
+    "images": 219,
+    "matches": 121,
+    "accuracy": 52.608695652173914,
+    "conditional": 55.25114155251141,
+    "macro": 56.70334567393391,
+    "refused": 11,
+    "ci": [
+      46.52,
+      58.7
+    ]
+  },
+  {
+    "id": "gemini-3-flash-preview",
+    "name": "Gemini-3-Flash-Preview",
+    "cohort": "matched",
+    "kind": "hosted",
+    "n": 230,
+    "images": 224,
+    "matches": 126,
+    "accuracy": 54.78260869565217,
+    "conditional": 56.502242152466366,
+    "macro": 50.01282051282051,
+    "refused": 6,
+    "ci": [
+      48.7,
+      60.43
+    ]
+  },
+  {
+    "id": "gemini-2.5-flash-lite",
+    "name": "Gemini-2.5-Flash-Lite",
+    "cohort": "matched",
+    "kind": "hosted",
+    "n": 230,
+    "images": 222,
+    "matches": 133,
+    "accuracy": 57.82608695652174,
+    "conditional": 59.909909909909906,
+    "macro": 61.649526943644595,
+    "refused": 8,
+    "ci": [
+      51.74,
+      63.91
+    ]
+  },
+  {
+    "id": "original",
+    "name": "Original photographs",
+    "cohort": "matched",
+    "kind": "control",
+    "n": 230,
+    "images": 230,
+    "matches": 122,
+    "accuracy": 53.04347826086957,
+    "conditional": 53.98,
+    "macro": 56.97,
+    "refused": 0,
+    "ci": [
+      47.39,
+      58.7
+    ]
+  },
+  {
+    "id": "llava-onevision-1.5-8b-local",
+    "name": "LLaVA-OneVision-1.5-8B",
+    "cohort": "s0",
+    "kind": "open",
+    "n": 300,
+    "images": null,
+    "matches": 169,
+    "accuracy": 56.33,
+    "conditional": null,
+    "macro": null,
+    "refused": null
+  },
+  {
+    "id": "gemini-3-flash-preview",
+    "name": "Gemini-3-Flash-Preview",
+    "cohort": "s0",
+    "kind": "hosted",
+    "n": 300,
+    "images": null,
+    "matches": 168,
+    "accuracy": 56.0,
+    "conditional": null,
+    "macro": null,
+    "refused": null
+  },
+  {
+    "id": "gpt-4.1-mini",
+    "name": "GPT-4.1-mini",
+    "cohort": "s0",
+    "kind": "hosted",
+    "n": 300,
+    "images": null,
+    "matches": 181,
+    "accuracy": 60.33,
+    "conditional": null,
+    "macro": null,
+    "refused": null
+  },
+  {
+    "id": "gemini-2.5-flash-lite",
+    "name": "Gemini-2.5-Flash-Lite",
+    "cohort": "s0",
+    "kind": "hosted",
+    "n": 300,
+    "images": null,
+    "matches": 172,
+    "accuracy": 57.33,
+    "conditional": null,
+    "macro": null,
+    "refused": null
+  },
+  {
+    "id": "gemini-2.5-flash",
+    "name": "Gemini-2.5-Flash",
+    "cohort": "s0",
+    "kind": "hosted",
+    "n": 300,
+    "images": null,
+    "matches": 172,
+    "accuracy": 57.33,
+    "conditional": null,
+    "macro": null,
+    "refused": null
+  },
+  {
+    "id": "original",
+    "name": "Original photographs",
+    "cohort": "s0",
+    "kind": "control",
+    "n": 300,
+    "images": null,
+    "matches": 162,
+    "accuracy": 54.0,
+    "conditional": null,
+    "macro": null,
+    "refused": null
+  },
+  {
+    "id": "llava-onevision-1.5-8b-local",
+    "name": "LLaVA-OneVision-1.5-8B",
+    "cohort": "h0",
+    "kind": "open",
+    "n": 145,
+    "images": null,
+    "matches": 77,
+    "accuracy": 53.1,
+    "conditional": null,
+    "macro": null,
+    "refused": null
+  },
+  {
+    "id": "gemini-3-flash-preview",
+    "name": "Gemini-3-Flash-Preview",
+    "cohort": "h0",
+    "kind": "hosted",
+    "n": 145,
+    "images": null,
+    "matches": 78,
+    "accuracy": 53.79,
+    "conditional": null,
+    "macro": null,
+    "refused": null
+  },
+  {
+    "id": "gpt-4.1-mini",
+    "name": "GPT-4.1-mini",
+    "cohort": "h0",
+    "kind": "hosted",
+    "n": 145,
+    "images": null,
+    "matches": 85,
+    "accuracy": 58.62,
+    "conditional": null,
+    "macro": null,
+    "refused": null
+  },
+  {
+    "id": "gemini-2.5-flash-lite",
+    "name": "Gemini-2.5-Flash-Lite",
+    "cohort": "h0",
+    "kind": "hosted",
+    "n": 145,
+    "images": null,
+    "matches": 79,
+    "accuracy": 54.48,
+    "conditional": null,
+    "macro": null,
+    "refused": null
+  },
+  {
+    "id": "gemini-2.5-flash",
+    "name": "Gemini-2.5-Flash",
+    "cohort": "h0",
+    "kind": "hosted",
+    "n": 145,
+    "images": null,
+    "matches": 78,
+    "accuracy": 53.79,
+    "conditional": null,
+    "macro": null,
+    "refused": null
+  },
+  {
+    "id": "human_baseline",
+    "name": "Museum-authored",
+    "cohort": "h0",
+    "kind": "human",
+    "n": 145,
+    "images": null,
+    "matches": 75,
+    "accuracy": 51.72,
+    "conditional": null,
+    "macro": null,
+    "refused": null
+  },
+  {
+    "id": "original",
+    "name": "Original photographs",
+    "cohort": "h0",
+    "kind": "control",
+    "n": 145,
+    "images": null,
+    "matches": 72,
+    "accuracy": 49.66,
+    "conditional": null,
+    "macro": null,
+    "refused": null
+  }
+]
