@@ -85,7 +85,25 @@ body{font-size:17px}.navlinks{font-size:14px}.paper-placeholder{font-size:13px}.
 /* Dataset access beside the reserved paper entry. */
 .nav-resources{display:flex;align-items:center;gap:22px;white-space:nowrap}.dataset-nav{font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid transparent}.dataset-nav:hover{color:var(--red);border-bottom-color:currentColor}
 @media(max-width:720px){.nav{gap:10px}.nav-resources{flex-direction:column;align-items:flex-end;gap:1px;line-height:1.35}.dataset-nav{font-size:12px;padding:1px 0}.nav-resources .paper-placeholder{font-size:11px;padding:1px 0}}
+
+/* Bilingual film between the description word clouds and the collection. */
+.film-section{width:min(1380px,calc(100% - 64px));margin-inline:auto;padding-block:clamp(32px,4vw,64px);border-top:1px solid var(--line)}
+.film-layout{display:grid;grid-template-columns:minmax(0,.65fr) minmax(0,1fr);align-items:center;gap:clamp(24px,5vw,80px)}
+.film-copy p{max-width:34ch;margin:1em 0 1.4em;color:#655e54;font-size:1.0625rem}
+.film-controls{display:flex;align-items:center;flex-wrap:wrap;gap:1rem}
+.film-duration{color:#655e54;font-size:.875rem;font-variant-numeric:tabular-nums}
+.film-languages{display:inline-flex;border:1px solid var(--ink);border-radius:4px}
+.film-languages[hidden]{display:none}
+.film-languages button{min-height:44px;padding:9px 22px;border:0;border-radius:0;color:var(--ink);background:transparent;font-size:.9375rem;font-weight:600}
+.film-languages button:first-child{border-radius:2px 0 0 2px}
+.film-languages button:last-child{border-radius:0 2px 2px 0}
+.film-languages button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.film-languages button[aria-pressed=false]:hover{background:#e8e4d9}
+.film-media video{display:block;width:100%;height:auto;aspect-ratio:16/9;border:1px solid var(--line);background:#f7f2e8;object-fit:contain}
+.film-error{margin:.6em 0 0;font-size:.9375rem}
+@media(max-width:720px){.film-section{width:calc(100% - 44px)}.film-layout{grid-template-columns:minmax(0,1fr);gap:20px}.film-copy p{margin:.7em 0 1em}.film-languages button{padding-inline:20px}}
 </style>
+<script defer src="film/player.js"></script>
 </head>
 <body>
 <header class="topbar"><nav class="nav shell" aria-label="Main navigation"><a class="wordmark" href="#">Polytropos</a><div class="navlinks"><a href="#benchmark">The benchmark</a><a href="#leaderboard">Leaderboard</a><a href="#gallery">Collection</a><a href="#research">Research</a></div><div class="nav-resources"><a class="dataset-nav" href="https://huggingface.co/datasets/Carolyn-Jiang/Culture-Ground-Description" target="_blank" rel="noopener">Hugging Face ↗</a><span class="paper-placeholder" aria-disabled="true">Read the paper ↗</span></div></nav></header>
@@ -276,6 +294,29 @@ body{font-size:17px}.navlinks{font-size:14px}.paper-placeholder{font-size:13px}.
 <text transform="translate(5,592)" font-size="21" style="fill:#81776E" data-word="panel" data-count="19" data-rate="14.43" tabindex="0" role="button" aria-label="panel: 19 occurrences; 14.43 per 10,000 retained content tokens">panel<title>panel: 19 occurrences · 14.43 per 10,000 retained content tokens</title></text>
 <text transform="translate(6,63)" font-size="21" style="fill:#B96746" data-word="common" data-count="19" data-rate="14.43" tabindex="0" role="button" aria-label="common: 19 occurrences; 14.43 per 10,000 retained content tokens">common<title>common: 19 occurrences · 14.43 per 10,000 retained content tokens</title></text>
 </svg></div><p class="cloud-selection" id="human-word-detail" aria-live="polite">Select a word to inspect its count and normalised rate.</p><p class="cloud-rights">Museum-authored descriptions © J. Paul Getty Trust. <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> unless otherwise noted; <a href="https://www.getty.edu/legal/terms-of-use/" target="_blank" rel="noopener">Getty source-record terms apply</a>. All 230 matched human descriptions are from Getty records.</p></article></div><p class="cloud-method" id="cloud-method">Both corpora cover the same 230 objects. AI: 1,150 descriptions, 59,712 retained content tokens. Museum-authored: 230 descriptions, 13,165 retained content tokens. Both use spaCy part-of-speech tagging on the original sentences, retaining nouns, proper nouns and adjectives; identical English stopwords, number words and weak-framing exclusions apply. No stemming or lemmatisation. Rates are per 10,000 retained content tokens. Up to 90 words are displayed per cloud. Font sizes are scaled independently within each cloud, so compare the normalised rates, not sizes across clouds. Colours are decorative; lexical usage does not measure description quality.</p></section>
+<section id="film" class="film-section" aria-labelledby="film-heading">
+  <div class="film-layout">
+    <div class="film-copy">
+      <div class="section-kicker">Project film</div>
+      <h2 class="section-title" id="film-heading">Watch the <em>film.</em></h2>
+      <p>See how two descriptions change the same museum pitcher.</p>
+      <div class="film-controls">
+        <div class="film-languages" role="group" aria-label="Film language" hidden>
+          <button type="button" data-film-language="en" data-src="film/polytropos-en.mp4" data-poster="film/poster-en.jpg" aria-controls="project-film" aria-pressed="true">English</button>
+          <button type="button" data-film-language="zh" data-src="film/polytropos-zh.mp4" data-poster="film/poster-zh.jpg" aria-controls="project-film" aria-pressed="false">Chinese</button>
+        </div>
+        <span class="film-duration">2 min 54 sec</span>
+      </div>
+      <noscript><a href="film/polytropos-zh.mp4">Watch the film in Chinese</a></noscript>
+    </div>
+    <div class="film-media">
+      <video id="project-film" controls playsinline preload="none" width="1920" height="1080" src="film/polytropos-en.mp4" poster="film/poster-en.jpg" aria-label="Polytropos project film in English">
+        <a href="film/polytropos-en.mp4">Watch the English film</a>
+      </video>
+      <p class="film-error" hidden>The video could not be loaded. <a href="film/polytropos-en.mp4">Open the film directly</a>.</p>
+    </div>
+  </div>
+</section>
 <section id="gallery" class="gallery-section shell"><div class="section-head"><div><div class="section-kicker">04 / The objects behind the question</div><h2 class="section-title gallery-title">A wall of <em>particulars.</em></h2></div><p>Twenty reconstructions across all 15 sampled region × type strata. Hover to magnify a reconstruction and reveal its original museum photograph; open any object for the full comparison.</p></div><div class="gallery-toolbar"><div class="filter-tabs" id="region-tabs" aria-label="Filter collection by region"><button data-region="All" aria-pressed="true">All regions</button><button data-region="Americas" aria-pressed="false">Americas</button><button data-region="Ancient Mediterranean" aria-pressed="false">Ancient Mediterranean</button><button data-region="East Asia" aria-pressed="false">East Asia</button><button data-region="Europe" aria-pressed="false">Europe</button></div><div class="gallery-tools"><input id="gallery-search" type="search" class="search" aria-label="Search collection" placeholder="Title, culture or object type"><button id="shuffle" class="plain">Shuffle ↻</button></div></div><div class="gallery-grid" id="gallery-grid"></div><p id="gallery-status" class="gallery-status" aria-live="polite"></p></section>
 <section id="research" class="closing"><div class="shell closing-grid"><div><div class="section-kicker">05 / Open research</div><h2>Follow the object.<br>Examine every turn.</h2><p>The dataset release preserves original descriptions, screening decisions, final cohorts, reconstructed images, recognition outputs and result tables.</p><details><summary>Cite Polytropos</summary><pre id="citation">@misc{jiang2026polytropos,
   title={Polytropos: What Do Vision-Language Model Descriptions Make of a Cultural Object?},
